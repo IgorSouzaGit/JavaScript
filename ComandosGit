@@ -1,22 +1,24 @@
 Configurações Iniciais
-**
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
 ----------------------------------------
 Clonando um repositorio
-git clone  /caminho/para/o/repositório
+	git clone  /caminho/para/o/repositório
 ---------------------------------------
 Criar novo repositorio
-git init
+	git init
 ---------------------------------------
 Status do Projeto
-git status
+	git status
 ---------------------------------------
 Adicionando e Confirmando - sempre que fizer um git add os arquivos irão ser direcionado para stage area(uma area intermediaria) ante de commitar
-git add <arquivo> - add arquivo
-git add*.txt - somente desta extenção
-git add . - todos os arquivos do projeto 
+	git add <arquivo> - add arquivo
+	git add*.txt - somente desta extenção
+	git add . - todos os arquivos do projeto 
 ---------------------------------------
 Commitar Projeto - enviar arquivos/alterações para o repositorio local
-git commit -m "Mensagem para indentificar as alterações"
+	git commit -a -m "Mensagem para indentificar as alterações" (-a para commitar sem add arquivos)
 ---------------------------------------
 Arquivo .gitignore - arquivo onde o que estiver dentro sera ignorado pelo git
+
 
