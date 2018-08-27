@@ -16,8 +16,14 @@ Adicionando e Confirmando - sempre que fizer um git add os arquivos irão ser di
 	git add*.txt - somente desta extenção
 	git add . - todos os arquivos do projeto 
 ---------------------------------------
+Reverter alterações
+	git checkout --<arquivos> - volta o arquivo para o estado do ultimo commit 
+---------------------------------------
 Commitar Projeto - enviar arquivos/alterações para o repositorio local
 	git commit -a -m "Mensagem para indentificar as alterações" (-a para commitar sem add arquivos)
+	git commit --amend - m "mensagem" - acrescentar alterações ao ultimo commit
+	git reset HEAD <arquivo> - remove arquivo da stageArea
+	git rm <arquivos> -  remove os arquivos para o commit
 ---------------------------------------
 Arquivo .gitignore - arquivo onde o que estiver dentro sera ignorado pelo git
 ---------------------------------------
@@ -25,8 +31,10 @@ git diff - mostrar mais detalhado as alterações recentes do projeto
 git diff --staged - mostrar mais detalhadamente alterações q esta na stageArea 
 --------------------------------------
 Retorna o historico de alterações do projeto
-git log - retorna o historico de todos os commit
-git log -p - retorna os commit mais detalhados
-git log -p -1 - retorna a qtd de commits especificada
-gitk - interface grafica
+	git log - retorna o historico de todos os commit
+	git log -p - retorna os commit mais detalhados
+	git log -p -1 - retorna a qtd de commits especificada
+	gitk - interface grafica
+	git log --pretty=oneline - retorna histórico resumido
+
 -------------------------------------- 
