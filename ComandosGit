@@ -5,8 +5,9 @@ Configurações Iniciais
 Clonando um repositorio
 	git clone  /caminho/para/o/repositório
 ---------------------------------------
-Criar novo repositorio
+Criar novo repositorio local
 	git init
+    git init --bare
 ---------------------------------------
 Status do Projeto
 	git status
@@ -15,6 +16,7 @@ Adicionando e Confirmando - sempre que fizer um git add os arquivos irão ser di
 	git add <arquivo> - add arquivo
 	git add*.txt - somente desta extenção
 	git add . - todos os arquivos do projeto 
+
 ---------------------------------------
 Reverter alterações
 	git checkout --<arquivos> - volta o arquivo para o estado do ultimo commit 
@@ -24,6 +26,7 @@ Commitar Projeto - enviar arquivos/alterações para o repositorio local
 	git commit --amend - m "mensagem" - acrescentar alterações ao ultimo commit
 	git reset HEAD <arquivo> - remove arquivo da stageArea
 	git rm <arquivos> -  remove os arquivos para o commit
+
 ---------------------------------------
 Arquivo .gitignore - arquivo onde o que estiver dentro sera ignorado pelo git
 ---------------------------------------
@@ -37,4 +40,6 @@ Retorna o historico de alterações do projeto
 	gitk - interface grafica
 	git log --pretty=oneline - retorna histórico resumido
 
+
 -------------------------------------- 
+
