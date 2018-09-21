@@ -4,7 +4,81 @@
 	<title> Codigos JavaScript </title>
 </head>
 <body>
-	
-	<sript src="script.js"></sript>
+
+	<p id="elemId"> Elemento por ID </p>
+	<div class="urso"> ruuu</div>
+	<div class="xerek"> faz o urruu</div>
+<div id="elementos">
+<h3>Elementos JavaScript</h3>
+
+<h4> Pegar elemento do html por ID </h4>	
+<p id="teste">document.getElementById("elemId").innerHTML</p>
+
+<h4> Pegar elemento do Html a partir de sua classe </h4>
+<p>document.getElementsByClassName("urso")	</p>
+
+<h4> Pegar elemento Html a partir da Tag </h4>
+<p>document.getElementsByTagName("p")</p>	
+
+<h4> Pegar primeira ocorrencia de um elemento Html Tag/.class/#id </h4> 
+<p>document.querySelector(".urso")	</p>
+		img.src="caminho/imagem";
+		console.log(img)</p>
+<h4> Pegar todas as ocorrencias de mesmo nome </h4>	
+<p>	document.queryElementById.querySelectorAll("filho")	</p>
+
+<h4> Criar(createElement) e Inserir(appendChild) elementos no HTML 
+<p>		var versa = document.createElement("p");
+		versa.innerHTML = "versa";
+		var sentra = document.createElement("p");
+		sentra.innerHTML = "sentra";
+		document.getElementById("nissan").appendChild(versa);
+		document.getElementById("nissan").appendChild(sentra);
+</p>
+
+<h4> Remover elementos do HTML (removeChild) </h4>
+<p>		var versa = document.createElement("p");
+		versa.innerHTML = "versa";
+		var sentra = document.createElement("p");
+		sentra.innerHTML = "sentra";
+		document.getElementById("nissan").appendChild(versa);
+		document.getElementById("nissan").appendChild(sentra);
+		document.getElementById("nissan").removeChild(versa);
+</p>
+
+<p> Para praticar </p>
+	<p> Tipos de variaveis </p>
+	<p> Inicializar variavel: var, let, const</p>
+	<p> Objetos: var carro = { indice: 'AAA-1234', modelo:'Hyundai', modelo:'sedan', ano:'2000',opcionais:{cambio: 'aut'}}
+			objeto dentro de objeto e acessar objeto com nome composto</p>
+	<p> Arrays - laço de repetição basico if var nomeVar = ['teste'];
+	<p> Condicionais - If and Else if and else / switch case</p>
+	<p> For / foreach / map / while  </p>
+	<p> Funçoes </p>
+	<h5>Eventos:</h5>
+		<p> onload </p>
+		<p> Click </p>
+		<p> Hover - mouseover , mouseleave, classList, </p>
+		<p> Changer </p>
+		<p> Blur </p>
+		<p> Keyup </p>
+		<p> KeyPress </p>
+		<p> Submit </p>
+
+
+<h4> Retornar elemento pai do html </h4>
+<p>document.querySelector("#teste").parentNode.parentNode</p>
+
+<div id="nissan">
+	<p id="teste">teste</p>
+
+</div>	
+
+</div>
+	<script>
+		console.log(
+		
+		)
+	</script>
 </body>
 </html>
